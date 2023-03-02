@@ -1,0 +1,67 @@
+# #if alse
+# nama=input("hai! siapa namamu?: ")
+# #cek
+# if nama == "fitri":
+#     print("nama yang cantik")
+#     print("kenalin namaku fia")
+
+# umur=input("umurmu berapa?: ")
+# if umur == "17 thn":
+#     print("hmmmm")  
+
+# hal=input("apa yang kamu sukai?")
+# if hal =="menghayal":
+#     print("pasti khayalin bright wkwkwkwkwkwk")
+
+# #Guessing Game 
+# Secret_number= 70
+# guess_count= 0 
+# guess_limit= 10
+# while guess_count < guess_limit: 
+#  guess = int(input("Guess: "))
+#  guess_count += 1 
+#  if guess == Secret_number: 
+#   print ("You Won🥳🥳")
+#   break
+#  elif guess > Secret_number:
+#   print("Sorry, You Failed! Secret number is lower") 
+#  else: 
+#   print("Sorry, You Failed! Secret number is higher")
+# print(abs(guess - Secret_number))
+
+
+
+# def kasir():
+#     # masukan input dari user
+#     nama_barang = input('masukan pesanan anda: ')
+#     harga = int(input('masukan harga barang: '))
+#     jumlah_beli = int(input('masukan jumlah barang yang anda beli: '))
+ 
+#     # mengitung jumlah harga
+#     total = harga * jumlah_beli
+     
+#     # cetak total harga
+#     print(f'harga total: {nama_barang}, = {total}')
+ 
+#     # input pembayaran dari user
+#     bayar = int(input('masukan pembayaran: '))
+ 
+#     # mengecek apakah pembayaran kurang atau ada kembalian
+#     kurang = total - bayar
+#     kembalian = bayar - total
+ 
+#     if bayar > total:
+#         print(f'jumlah kembalian anda adalah {kembalian}')
+#         tanya()
+     
+#     elif bayar == total:
+#         print('uang anda pas, terimakasih telah berbelanja ')
+ 
+#     else:
+#         print(f'maaf uang anda tidak cukup, uang anda kurang {kurang}')
+#         counter_kasir()
+
+state = ("California")
+
+print(state[::-1])
+
